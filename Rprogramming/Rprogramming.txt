@@ -1,0 +1,7 @@
+Histogram for average monthly hours & satisfaction level :
+
+hist(y[,4], main = "histogram plot of average monthly hours" , xlab="satisfactionlevel", ylab = "monthly average", col = “lightyellow")
+
+Scatter plot :
+ 
+scatter.smooth(y[,4],y[,1], xlab ="satisfaction level", ylab = "average monthly hours")
